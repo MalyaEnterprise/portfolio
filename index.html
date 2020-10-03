@@ -1,197 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="index, follow" />  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>
-        Malya Enterprises - Navaneeth Malya
-    </title>
-    <link rel="stylehsheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@200;300;400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
+  <meta charset="utf-8">
+  <title>DevFolio Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <div class="logo">
-            <img src="img/Logo.png" alt="" height="50px">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link">Home</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#services" class="nav__link">My Services</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#about" class="nav__link">About Me</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#work" class="nav__link">My Work</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<body id="page-top">
 
-    <!-- Introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Navaneeth Malya</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Graphic Designer</p>
-        <img src="img/navaneethmalya.png" alt="Navaneeth Malya" class="intro__img" />
-    </section>
-
-    <!-- services -->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">
-            What I do
-        </h2>
-            <div class="container">
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <div class="card card-na mt-4">
-                            <h3 style="color: black;">Flex Making</h3>
-                            <p style="color: black;">Banner Designer for events like Shop Openings, Birthday Card, Bill Receipts for shop</p>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-nb mt-4">
-                            <h3 style="color: black;">Logo Designing</h3>
-                            <p style="color: black;">Experienced Logo Designer for ypur esport team, Shops and Company</p>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-nc mt-4">
-                            <h3 style="color: black;">Photography</h3>
-                            <p style="color: black;">Photography Facilities will be provided for all kind of formal and informal functions</p>
-                            </div>
-                    </div>
-                </div>
-            </div>
-
-        <br/>
-        <a href="#work" class="btn">My Work</a>
-    </section>
-
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-        <h4 class="section__title" style="font-size: 50px; text-align: center;">
-            Specialized in
-        </h4>
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card card-1">
-                    <h3>Adobe Photoshop</h3>
-                    <p>The world’s best imaging and graphic design software is at the core of just about every creative
-                        project, from photo editing and compositing to digital painting, animation and graphic design.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-2">
-                    <h3>Adobe Illustrator</h3>
-                    <p>The industry-standard vector graphics software is used by millions of designers and artists to create
-                        everything from gorgeous web and mobile graphics to logos, icons.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-3">
-                    <h3>Adobe Premiere Pro</h3>
-                    <p>Premiere Pro is the industry-leading video editing software for film, TV and the web. Creative tools,
-                        integration with other apps and services and the power of Adobe.</p>
-                </div>
-            </div>
-        </div>
-    
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card card-4">
-                    <h3>Adobe After Effect</h3>
-                    <p> With After Effects, the industry-standard motion graphics and visual effects software, you can take any idea and make it move.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-5">
-                    <h3>Coroldraw</h3>
-                    <p>Find all the professional vector illustration, layout, photo editing and typography tools you need to create and complete important design projects, from virtually any device.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card card-6">
-                    <h3>Adobe Light Room</h3>
-                    <p>Lightroom is the cloud-based service that gives you everything you need to edit, organise, store and share your photos across any device.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- About me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">
-            Who I am
-        </h2>
-        <p class="section__subtitle section__subtitle--about">
-            Graphic Designer based in Konandur
-        </p>
-        <div class="about-me__body">
-            <p>I am a Konandur based Graphic Designer, pursuved Electronics and Communication degree in Sayadhri Politechnique College , Thirthahali. A Innovative Person Who think in unique direction to create things for People, Dedicated and Hardworker towards given task in a rechable price.
-            </p>
-        </div>
-
-        <img src="img/neethu.png" alt="" class="about-me__img" alt="A picture of Joy after creating a Website"/>
-    </section>
-
-    <!-- my work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title">
-            My Work
-        </h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-        <!-- <div class="portfolio">
-            <a href="https://www.francogermaninstitute.com" class="portfolio__item" target="_blank">
-                <img src="img/portfolio01.png" class="portfolio__img" alt="francogermaninstitute.com" />
-            </a>
-            <a href="#work" class="portfolio__item">
-                <img src="img/portfolio02.png" class="portfolio__img" alt="website for a startup" />
-            </a>
-            <a href="https://dsouzajoy.github.io/corona-wars-game/coronaWars.html" target="_blank" class="portfolio__item">
-                <img src="img/portfolio03.png" class="portfolio__img" alt="web based game" />
-            </a>
-            <a href="#work" class="portfolio__item">
-                <img src="img/portfolio04.png" class="portfolio__img" alt="ERP solution for a Catering organisation" />
-            </a>
-        </div> -->
-    </section>
-
-    <footer class="footer">
-        <a href="mailto:malyaenterpriseknd@gmail.com" class="footer__link">malyaenterpriseknd@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href=""
-                    target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href=""
-                    target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="mailto:niranjanmalya5@gmail.com"
-                    target="_blank"><i class="fas fa-envelope"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://wa.me/919481874488"
-                    target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+      <a class="navbar-brand js-scroll" href="#page-top">Malya Enterprise</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
         </ul>
-        <div class="copyright">&copy; <span id="year"></span> Crafted by Niranjan Malya VN. All Rights
-            Reserved.</div>
-    </footer>
-    <script src="https://kit.fontawesome.com/ad3bc45f55.js" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
 
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/navaneeth.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">I am Navaneeth Malya</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Graphic Designer, Photographer, Logo Maker</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/neethu.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Navaneeth Malya</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Graphic Designer</span></p>
+                      <p><span class="title-s">Email: </span> <span>malyaenterpriseknd@gmail.com</span></p>
+                      <p><span class="title-s">Phone: </span> <span>+919481874488</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>Adobe Photoshop</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Adobe Illustrator</span> <span class="pull-right">80%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Adobe Premiere Pro</span> <span class="pull-right">70%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Adobe After Effect</span> <span class="pull-right">70%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Coroldraw</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    Myself Navaneeth Malya, A Konandur, Thirthahalli based Freelance Graphic Designer.
+                  </p>
+                  <p class="lead">
+                    Completed my Politechnic Degree in Sayhadri Politechnic College, Thirthahalli.
+                  </p>
+                  <p class="lead">
+                    A Well Dedicated Designer with understanding of creating Things using Adobe Photoshop, Illustrator.
+                    Presently Providing Service at Hometown with respect to designing flex, Bill Books and Logo for new shops and
+                    also a creative Photographer Ready to Capture and Frame your Valuable memories.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Services
+            </h3>
+            <p class="subtitle-a">
+              Services Provided by Malya Enterprise.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-camera"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Photography</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Responsive Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Graphic Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Marketing Services</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  <!--/ Section Portfolio Star /-->
+  <!-- <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Portfolio
+            </h3>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Lorem impsum dolor</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Loreda Cuno Nere</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bindo Laro Cado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-5.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-6.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Big Bang</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section> -->
+  <!--/ Section Portfolio End /-->
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                      Feel Free to Contact for any kind of Graphic Designing, Flex Creation, and Logo Designing for ypur new Shops or Company. A Dedicated, Hardworking and Creative Designer at a Rechable Price
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span>#20, Malya Agencies, Main Road, Konandur, Thirthahali, Shivamogga. 577-422</li>
+                      <li><span class="ion-ios-telephone"></span>+91-9481874488</li>
+                      <li><span class="ion-email"></span>malyaenterpriseknd@gmail.com</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://wa.me/919481874488"><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/malyaenterprise/?hl=en"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href="https://twitter.com/malyaenterprise?s=08"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <!-- <li><a href="mailto:malyaenterpriseknd@gmail.com"><span class="ico-circle"><i class="ion-social-mail"></i></span></a></li> -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
